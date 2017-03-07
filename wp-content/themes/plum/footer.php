@@ -14,9 +14,8 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<?php printf( __( 'Powered by %1$s.', 'plum' ), '<a href="'.esc_url("https://inkhive.com/").'" rel="nofollow">Plum Theme</a>' ); ?>
 			<span class="sep"></span>
-			<?php echo ( get_theme_mod('plum_footer_text') == '' ) ? ('&copy; '.date('Y').' '.get_bloginfo('name').__('. All Rights Reserved. ','plum')) : esc_html( get_theme_mod('plum_footer_text') ); ?>
+			<?php echo ( get_theme_mod('plum_footer_text') == '' ) ? ('&copy; '.date('Y').' '.get_bloginfo('name').__('. 京ICP备17011376号. ','plum')) : esc_html( get_theme_mod('plum_footer_text') ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 	
